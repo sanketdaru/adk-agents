@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "google-adk>=0.1.0",
+    "google-adk>=0.2.0",
     "ipykernel>=6.29.5",
     "litellm>=1.66.3",
+    "opentelemetry-api>=1.32.1",
+    "opentelemetry-exporter-otlp>=1.32.1",
+    "opentelemetry-sdk>=1.32.1",
 ]
